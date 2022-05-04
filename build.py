@@ -55,7 +55,7 @@ print(combined_html)
 # Writes the new index.html file to a brand new file
 # in the same directory
 
-open('aboutmecontent.html','w+').write(combined_html)
+open('AboutMe.html','w+').write(combined_html)
 
 
 
@@ -86,7 +86,7 @@ print(combined_html)
 # Writes the new index.html file to a brand new file
 # in the same directory
 
-open('blogcontent.html','w+').write(combined_html)
+open('Blog.html','w+').write(combined_html)
 
 print('static site') 
 
@@ -115,5 +115,5 @@ print(combined_html)
 # Writes the new index.html file to a brand new file
 # in the same directory
 
-open('projectscontent.html','w+').write(combined_html)
+open('Projects.html','w+').write(combined_html)
 
