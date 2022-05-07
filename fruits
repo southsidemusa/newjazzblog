@@ -1,0 +1,4 @@
+for number in range(2):
+    items = ["hi", "ho"]
+    for item in items:
+        print(item)
