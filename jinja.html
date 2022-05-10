@@ -1,0 +1,29 @@
+#2.2.2
+
+from jinja2 import Template
+index_html = open("index.html").read()
+template_html = open("base.html").read()
+template = Template(template_html)
+template.render(
+title="Homepage",
+content=index_html,
+)
+
+#2.3.1 
+
+{% for page in pages %}
+
+    <a href="{{ page.output_Blog.hmtl }}">{{ Blog }}</a>
+    <a href="{{ page.output_AboutMe.html }}">{{ About Me }}</a>
+    <a href="{{ page.output_Projects.html }}">{{ Projects }}</a>
+{% endfor %}
+
+template.render(pages=pages, content=Blog.html)
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+
